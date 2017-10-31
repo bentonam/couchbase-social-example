@@ -1,0 +1,12 @@
+version: '2'
+services:
+  couchbase-social-example:
+    image: bentonam/couchbase-social-example:latest
+    container_name: couchbase-social-example
+    ports:
+      - "8091-8094:8091-8094"
+    environment:
+      CLUSTER_USERNAME: Administrator
+      CLUSTER_PASSWORD: password
+      SERVICES: data,index,query,fts
+      BUCKET: social

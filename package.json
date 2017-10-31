@@ -1,0 +1,22 @@
+{
+  "name": "couchbase-social-example",
+  "version": "1.0.0",
+  "description": "This is a sample Social Dataset that is generated and used with N1QL",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bentonam/couchbase-social-example.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bentonam/couchbase-social-example/issues"
+  },
+  "homepage": "https://github.com/bentonam/couchbase-social-example#readme",
+  "devDependencies": {
+    "fakeit": "^1.2.1"
+  }
+}
